@@ -1,5 +1,5 @@
 const express = require('express');
-const PORT = propcess.env.PORT || 3002;
+const PORT = process.env.PORT || 3002;
 const app = express();
 
 app.get('/api/notes', (req, res) => {
